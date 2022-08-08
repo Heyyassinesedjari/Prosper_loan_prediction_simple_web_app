@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Predict Page
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <form method="POST" style="margin: auto; width: 500px;">
+        <img id="image_login" class="text-center" src="static/prosper-prosper.svg" style="max-width: 120%; max-height: 120%; margin-top: 20%; margin-bottom: 20%;">
+        <br>
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The number of days delinquent:</h5>
+        {{ form.LoanCurrentDaysDelinquent(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The gross charged off amount of the loan:</h5>
+        {{ form.LP_GrossPrincipalLoss(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The cycle the loan was charged off:</h5>
+        {{ form.LoanFirstDefaultedCycleNumber(class="form-control", placeholder = "User Name")}}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The Number of months since the loan originated:</h5>
+        {{ form.LoanMonthsSinceOrigination(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The Cumulative collection fees paid by the investors who have invested in the loan:</h5>
+        {{ form.LP_CollectionFees(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The the estimated principal loss on charge-offs:</h5>
+        {{ form.EstimatedLoss(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The Estimated return which is the difference between the Estimated Effective Yield and the Estimated Loss Rate:</h5>
+        {{ form.EstimatedReturn(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The Pre charge-off cumulative gross payments made by the borrower on the loan:</h5>
+        {{ form.LP_CustomerPayments(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The Effective yield:</h5>
+        {{ form.EstimatedEffectiveYield(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        {{ form.csrf_token }}
+        <h5 style="text-align: center;">Enter The employment status of the borrower:</h5>
+        {{ form.EmploymentStatus(class="form-control", placeholder = "User Name") }}
+        <br>
+        <br>
+        <br>
+        <br>
+        <input class="btn btn-lg btn-block" style="background-color: #e40c73; color: #ffffff" type="submit" value="Predict !">
+        <br>
+        <br>
+        <br>
+    </form>
+</div>
+{% endblock %}

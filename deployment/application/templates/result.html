@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Predict Page
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    {% if prediction == 0 %}
+        <h1 style="margin-top: 20%; text-align: center;"> Unfortunately, you're not elligible for the Loan ! </h1>
+    {% else %}
+        <h1 style="margin-top: 20%; text-align: center;"> Congratulations, you're elligible for the Loan ! </h1>
+    {% endif %}
+</div>
+{% endblock %}
