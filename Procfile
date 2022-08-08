@@ -1,1 +1,1 @@
-web: gunicorn run:prosperwebapp
+web: gunicorn run:app
