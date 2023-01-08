@@ -146,7 +146,7 @@ prediction page.
 #### Predict Page
 
 After successful authentication, the user accesses this page where he can fill in the
-information about the borrower, namely:
+information about the borrower, namely:<br>
 • The Days Delinquent: The current number of days the loan is past due.
 • The Customer Principal Payments: The cumulative amount of Prepayments
 (Principal payments) made by the borrower on the loan before closing the account.
