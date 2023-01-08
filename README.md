@@ -25,7 +25,7 @@ For EDA, the features were analyzed and the relation between the features was sh
 For feature engineering, features of correlation > 0.8 were dropped leaving only one feature of each correlated group. Features causing data leakage were dropped (data which will not be able in the real life).
 All features were trasformed into numeric features and the remaining non-numeric was dropped. 
 SelectKbest method was used to get the best features to use.
-The dataset ended up with only 27 features.
+The dataset ended up with only 9 but most significant features.
 The outliers were put at threshold for all features.
 
 
