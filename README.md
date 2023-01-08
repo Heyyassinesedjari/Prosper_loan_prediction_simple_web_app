@@ -146,20 +146,20 @@ prediction page.
 #### Predict Page
 
 After successful authentication, the user accesses this page where he can fill in the
-information about the borrower, namely:<br>
-• The Days Delinquent: The current number of days the loan is past due.
-• The Customer Principal Payments: The cumulative amount of Prepayments
+information about the borrower, namely:
+- The Days Delinquent: The current number of days the loan is past due.
+- The Customer Principal Payments: The cumulative amount of Prepayments
 (Principal payments) made by the borrower on the loan before closing the account.
-• The Gross Principal Loss: The gross amount not refunded after closing the account.
-• The Customer Payments: The gross amount refunded before closing the account.
-• The Interest and Fees: The cumulative amount of interest and fees incurred by the loan
+- The Gross Principal Loss: The gross amount not refunded after closing the account.
+- The Customer Payments: The gross amount refunded before closing the account.
+- The Interest and Fees: The cumulative amount of interest and fees incurred by the loan
 lender on the loan before closing the account,
-• The Service Fees: The cumulative service fees paid by investors (lenders)
+- The Service Fees: The cumulative service fees paid by investors (lenders)
 who invested in the loan.
-• The Monthly Loan Payment: The monthly loan payment.
-• The Available Loan Payment: The total credit available on the credit card at the time
+- The Monthly Loan Payment: The monthly loan payment.
+- The Available Loan Payment: The total credit available on the credit card at the time
 where the credit profile was extracted.
-• The Reviving Credit Balance: Dollars of revolving credit at the time the credit profile
+- The Reviving Credit Balance: Dollars of revolving credit at the time the credit profile
 credit has been withdrawn.
 then pressing the "predict" button the pre-trained naive bayesian model performs the pre-
 diction and redirects the user to the result interface which displays the result of the prediction.
