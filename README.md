@@ -127,7 +127,17 @@ We prepared the needed files to deploy our app successfully:
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1LoginPage.png?raw=true)
 
 #### Predict Page
-![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1PredictPage.png?raw=true)
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/LoginSuccessfulPredictPage.png?raw=true)
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/PredictPage.png?raw=true)
 
-####
+#### Result Page
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/CongratsResultPage.png?raw=true)
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/UnfortunatelyPage.png?raw=true)
+
+#### MustBeAdmin Page
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/BeAdmin.png?raw=true)
+
+
+#### Register Page
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1RegisterPage.png?raw=true)
 
