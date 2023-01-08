@@ -1,4 +1,4 @@
-# Predictive Modelling Using Social Profile in Online P2P Lending Market (45 days Internship project at Technocolabs Softwares, India (Remote)
+# Predictive Modelling Using Social Profile in Online P2P Lending Market (45 days Internship project at Technocolabs Softwares, India (Remote))
 
 In this project the status of the borrower was analyzed based on the features given in the loan dataset to predict if the loan will be completed or defaulted.
 
