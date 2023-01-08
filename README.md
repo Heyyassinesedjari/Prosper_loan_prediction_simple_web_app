@@ -119,4 +119,15 @@ We prepared the needed files to deploy our app successfully:
 
 ### User Interface
 
+#### Home Page
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage.png?raw=true)
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage2.png?raw=true)
+
+#### Login Page
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1LoginPage.png?raw=true)
+
+#### Predict Page
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1PredictPage.png?raw=true)
+
+####
+
