@@ -1,4 +1,4 @@
-# Predictive-Modelling-Using-Social-Profile-in-Online-P2P-Lending-Market 15 August
+# Predictive Modelling Using Social Profile in Online P2P Lending Market (45 days Internship project at Technocolabs Softwares, India (Remote)
 
 In this project the status of the borrower was analyzed based on the features given in the loan dataset to predict if the loan will be completed or defaulted.
 
@@ -117,11 +117,11 @@ We prepared the needed files to deploy our app successfully:
 - requirements.txt: contains all the libraries must be downloaded by Heroku to run app file (run.py for Flask app and Deploy for Django app).
 - runtime.txt: contains python version to interpret the code (For Django).
 
-### User Interface
+## User Interfaces
 We will expose some interfaces of our application, trying each time to describe
 the various interactive objects made available to the user.
 
-#### Home Page
+### Home Page
 
 This is the first contact that the user (employee of the Prosper company) has with the platform, he
 sees an image illustrating the granting of a credit to a borrower which represents exactly
@@ -133,7 +133,7 @@ the authentication page.
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage.png?raw=true)
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage2.png?raw=true)
 
-#### Login/Authentication Page
+### Login/Authentication Page
 
 On this page the user can authenticate to his account by entering his email and
 his password only if the administrator of the application (usually the manager of the Prosper team granting the credits) has already created his account. For the sake of
@@ -143,7 +143,7 @@ prediction page.
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1LoginPage.png?raw=true)
 
-#### Predict Page
+### Predict Page
 
 After successful authentication, the user accesses this page where he can fill in the
 information about the borrower, namely:
@@ -161,12 +161,12 @@ who invested in the loan.
 where the credit profile was extracted.
 - The Reviving Credit Balance: Dollars of revolving credit at the time the credit profile
 credit has been withdrawn.
-then pressing the "predict" button the pre-trained naive bayesian model performs the pre-
+then pressing the "predict" button the pre-trained Random Forest performs the pre-
 diction and redirects the user to the result interface which displays the result of the prediction.
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/LoginSuccessfulPredictPage.png?raw=true)
 
-#### Result Page
+### Result Page
 
 After completing and submitting the prediction page form, and if the prediction is
 favorable, the user is sent to this result page which shows him that this borrower deserves
@@ -180,7 +180,7 @@ user is not eligible for the Loan.)
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/UnfortunatelyPage.png?raw=true)
 
-#### MustBeAdmin Page
+### MustBeAdmin Page
 If a simple user (who is not an administrator) tries to access the registration page
 this page will be sent to him, telling him that he cannot access the reserved registration page
 to administrators. he can therefore then be redirected to the authentication page in order to
@@ -189,7 +189,7 @@ authenticate as administrator by pressing the "authenticate as administrator" bu
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/BeAdmin.png?raw=true)
 
 
-#### Register Page
+### Register Page
 Only the administrator can access this page, to register new users,
 the administrator fills in the following information about the new user to add:
 his name, his email, the type of is account (Administrator or simple user) and his password. Finally if the email is valid and he has not already been cretaed before and if the password exceeds 6
@@ -197,4 +197,11 @@ characters then by pressing "Create Account", the new user is
 immediately added to the SQL database.
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1RegisterPage.png?raw=true)
+
+
+### Contributors
+Kamrim Abouaish (Egypt) :  https://github.com/KarimAbouaish
+Mohammed Mouhajir (Morocco) : https://www.linkedin.com/in/mohamed-mouhajir-90450a235/
+Ahmed Sakr (Egypt) :   https://github.com/ahmedsakrs
+Mohamed Aamer (Egypt) : https://www.linkedin.com/in/mohamed-aamer-8a9a66199/
 
