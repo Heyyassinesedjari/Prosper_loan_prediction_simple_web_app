@@ -118,25 +118,79 @@ We prepared the needed files to deploy our app successfully:
 - runtime.txt: contains python version to interpret the code (For Django).
 
 ### User Interface
+We will expose some interfaces of our application, trying each time to describe
+the various interactive objects made available to the user.
 
 #### Home Page
+
+This is the first contact that the user (employee of the Prosper company) has with the platform, he
+sees an image illustrating the granting of a credit to an imprinter which represents exactly
+the role of our platform in assisting Prosper employees in assisting with the
+customer solvency decision (imprinter) of the Prosper.com platform. The user can
+then press the "Learn More" button or press the orange bar
+then press the button to authenticate (Login), the two possibilities direct the user to
+the authentication page.
+
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage.png?raw=true)
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage2.png?raw=true)
 
 #### Login Page
+
+On this page the user can authenticate to his account by entering his email and
+his password provided that he already has an account created by the administrator of
+the application (usually the manager of the Prosper team granting the credits). For the sake of
+security the password must necessarily contain at least 6 characters. Then if both
+entries correspond the user is directly directed to his account and precisely to the
+prediction page.
+
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1LoginPage.png?raw=true)
 
 #### Predict Page
+
+After successful authentication, the user accesses this page where he can fill in the
+information about the borrower, namely:
+• The Days Delinquent: The current number of days the loan is past due.
+• The Customer Principal Payments: The cumulative amount of Prepayments
+(Principal payments) made by the borrower on the loan before closing the account.
+• The Gross Principal Loss: The gross amount not refunded after closing the account.
+• The Customer Payments: The gross amount refunded before closing the account.
+• The Interest and Fees: The cumulative amount of interest and fees incurred by the loan
+lender on the loan before closing the account,
+• The Service Fees: The cumulative service fees paid by investors (lenders)
+who invested in the loan.
+• The Monthly Loan Payment: The monthly loan payment.
+• The Available Loan Payment: The total credit available on the credit card at the time
+where the credit profile was extracted.
+• The Reviving Credit Balance: Dollars of revolving credit at the time the credit profile
+credit has been withdrawn.
+then pressing the "predict" button the pre-trained naive bayesian model performs the pre-
+diction and redirects the user to the result interface which displays the result of the prediction.
+
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/LoginSuccessfulPredictPage.png?raw=true)
 
 #### Result Page
+
+After completing and submitting the prediction page form, and if the prediction is
+favorable, the user is sent to this result page which shows him that this borrower deserves
+to have credit. (Congratulations, This user is eligible for the Loan.)
+
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/CongratsResultPage.png?raw=true)
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/UnfortunatelyPage.png?raw=true)
 
 #### MustBeAdmin Page
+Otherwise if the prediction is unfavorable, the user is sent to this same page
+does not display this time that this user does not deserve to have a credit. (Unfortunately, This
+user is not eligible for the Loan.)
+
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/BeAdmin.png?raw=true)
 
 
 #### Register Page
+Only the administrator can access this page, to register new users,
+the administrator fills in the following information about the new user to add:
+his name, his email, the type of account (Administrator or simple user) and his password. Finally if the email is valid and has not already been used and if the password exceeds 6
+characters then by pressing "Create Account", the new user and
+immediately added to the SQL database.
+
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1RegisterPage.png?raw=true)
 
