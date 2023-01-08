@@ -119,4 +119,4 @@ We prepared the needed files to deploy our app successfully:
 
 ### User Interface
 
-![alt text](https://drive.google.com/file/d/1ODvbxd9q_vzRtYC5aSBESGnC-0wmKCFl/view?usp=sharing)
+![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage.png?raw=true)
