@@ -124,9 +124,8 @@ the various interactive objects made available to the user.
 #### Home Page
 
 This is the first contact that the user (employee of the Prosper company) has with the platform, he
-sees an image illustrating the granting of a credit to an imprinter which represents exactly
-the role of our platform in assisting Prosper employees in assisting with the
-customer solvency decision (imprinter) of the Prosper.com platform. The user can
+sees an image illustrating the granting of a credit to a borrower which represents exactly
+the role of our platform in assisting Prosper employees decide on the solvency of the Prosper platform users. The employee can
 then press the "Learn More" button or press the orange bar
 then press the button to authenticate (Login), the two possibilities direct the user to
 the authentication page.
@@ -134,13 +133,12 @@ the authentication page.
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage.png?raw=true)
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1HomePage2.png?raw=true)
 
-#### Login Page
+#### Login/Authentication Page
 
 On this page the user can authenticate to his account by entering his email and
-his password provided that he already has an account created by the administrator of
-the application (usually the manager of the Prosper team granting the credits). For the sake of
+his password only if the administrator of the application (usually the manager of the Prosper team granting the credits) has already created his account. For the sake of
 security the password must necessarily contain at least 6 characters. Then if both
-entries correspond the user is directly directed to his account and precisely to the
+entries match, the user is directed to his account and precisely to the
 prediction page.
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1LoginPage.png?raw=true)
@@ -175,12 +173,18 @@ favorable, the user is sent to this result page which shows him that this borrow
 to have credit. (Congratulations, This user is eligible for the Loan.)
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/CongratsResultPage.png?raw=true)
+
+Otherwise if the prediction is negative, the user is sent to the same page
+that displays a different message  affirming that this borrower should not get the loan (Unfortunately, This
+user is not eligible for the Loan.)
+
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/UnfortunatelyPage.png?raw=true)
 
 #### MustBeAdmin Page
-Otherwise if the prediction is unfavorable, the user is sent to this same page
-does not display this time that this user does not deserve to have a credit. (Unfortunately, This
-user is not eligible for the Loan.)
+If a simple user (who is not an administrator) tries to access the registration page
+this page will be sent to him, telling him that he cannot access the reserved registration page
+to administrators. he can therefore then be redirected to the authentication page in order to
+authenticate as administrator by pressing the "authenticate as administrator" button (Login as an admin account)
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/BeAdmin.png?raw=true)
 
@@ -188,8 +192,8 @@ user is not eligible for the Loan.)
 #### Register Page
 Only the administrator can access this page, to register new users,
 the administrator fills in the following information about the new user to add:
-his name, his email, the type of account (Administrator or simple user) and his password. Finally if the email is valid and has not already been used and if the password exceeds 6
-characters then by pressing "Create Account", the new user and
+his name, his email, the type of is account (Administrator or simple user) and his password. Finally if the email is valid and he has not already been cretaed before and if the password exceeds 6
+characters then by pressing "Create Account", the new user is
 immediately added to the SQL database.
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/1RegisterPage.png?raw=true)
