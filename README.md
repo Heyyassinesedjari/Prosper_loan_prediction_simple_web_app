@@ -161,7 +161,7 @@ who invested in the loan.
 where the credit profile was extracted.
 - The Reviving Credit Balance: Dollars of revolving credit at the time the credit profile
 credit has been withdrawn.
-then pressing the "predict" button the pre-trained Random Forest performs the pre-
+then pressing the "predict" button the pre-trained Logistic Regression performs the pre-
 diction and redirects the user to the result interface which displays the result of the prediction.
 
 ![alt text](https://github.com/Heyyassinesedjari/Prosper_loan_prediction_simple_web_app/blob/main/Screenshots/LoginSuccessfulPredictPage.png?raw=true)
