@@ -200,7 +200,7 @@ immediately added to the SQL database.
 
 
 ## Video Demo
-[Screencast from 07 نونبر, 2022 +01 04:30:48.webm](https://user-images.githubusercontent.com/94799575/211199718-928e08b6-addf-411b-8910-b9d2f3d2de3c.webm)
+
 
 
 ## Contributors
