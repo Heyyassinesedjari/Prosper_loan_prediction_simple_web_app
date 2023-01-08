@@ -200,8 +200,8 @@ immediately added to the SQL database.
 
 
 ### Contributors
-Kamrim Abouaish (Egypt) :  https://github.com/KarimAbouaish
-Mohammed Mouhajir (Morocco) : https://www.linkedin.com/in/mohamed-mouhajir-90450a235/
-Ahmed Sakr (Egypt) :   https://github.com/ahmedsakrs
-Mohamed Aamer (Egypt) : https://www.linkedin.com/in/mohamed-aamer-8a9a66199/
+- Kamrim Abouaish (Egypt) :  https://github.com/KarimAbouaish
+- Mohammed Mouhajir (Morocco) : https://www.linkedin.com/in/mohamed-mouhajir-90450a235/
+- Ahmed Sakr (Egypt) :   https://github.com/ahmedsakrs
+- Mohamed Aamer (Egypt) : https://www.linkedin.com/in/mohamed-aamer-8a9a66199/
 
