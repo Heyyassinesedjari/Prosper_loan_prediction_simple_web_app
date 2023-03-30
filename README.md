@@ -11,7 +11,7 @@ The dataset contains 81 features and 113937 rows.
 - The target of the dataset is the "LoanStatus". We renamed it as "Success" whose value is "NO"(0) if the value in LoanStatus is (chargedoff or defaulted) otherwise it will be "Yes" (1).
 
 
-## Preprocessing and Sentiment Analysis
+## Preprocessing
 
 Missing values in categorical features ('CreditGrade', ‘ClosedDate', 'ProsperRating (Alpha)', 'BorrowerState', 'Occupation', 'EmploymentStatus', 'GroupKey', 'FirstRecordedCreditLine) were filled by the most frequent value of each feature. For the 'CreditGrade' it turned out to be unbalanced.
 So, it was filled by the values in average score columns (upper and lower) to get the suitable Letter grade for each value.
